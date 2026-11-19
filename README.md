@@ -204,4 +204,4 @@ Because `package.json` sets `"type": "module"`, every `.js` file in this project
 
 ## Author
 
-Touseef Ahmed — Bloomrix internship, FE02 task.
+Touseef Ahmed — Bloomrix internship, FE02 task
