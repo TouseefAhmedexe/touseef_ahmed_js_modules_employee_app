@@ -1,0 +1,20 @@
+{
+  "name": "touseef_ahmed_js_modules_employee_app",
+  "version": "1.0.0",
+  "description": "Modular JavaScript employee management app - Bloomrix internship FE02 task",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write ."
+  },
+  "author": "Touseef Ahmed",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "eslint": "^9.28.0",
+    "prettier": "^3.5.3"
+  }
+}
