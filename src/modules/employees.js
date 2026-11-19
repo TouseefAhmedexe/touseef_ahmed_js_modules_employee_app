@@ -1,4 +1,9 @@
-import { validateName, validateEmail, validateSalary, validateDepartment } from './validation.js';
+import {
+  validateName,
+  validateEmail,
+  validateSalary,
+  validateDepartment,
+} from './validation.js';
 
 const employees = [];
 let nextId = 1;

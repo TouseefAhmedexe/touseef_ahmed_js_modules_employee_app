@@ -22,6 +22,8 @@ export function searchByDepartment(department) {
   const results = listEmployees().filter((emp) =>
     emp.department.toLowerCase().includes(keyword)
   );
-  console.log(`Found ${results.length} employee(s) in department "${department}".`);
+  console.log(
+    `Found ${results.length} employee(s) in department "${department}".`
+  );
   return results;
 }

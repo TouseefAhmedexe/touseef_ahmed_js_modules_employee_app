@@ -24,7 +24,10 @@ export function validateSalary(salary) {
 
 export function validateDepartment(department) {
   if (!DEPARTMENTS.includes(department)) {
-    return { valid: false, message: `Department must be one of: ${DEPARTMENTS.join(', ')}.` };
+    return {
+      valid: false,
+      message: `Department must be one of: ${DEPARTMENTS.join(', ')}.`,
+    };
   }
   return { valid: true, message: '' };
 }

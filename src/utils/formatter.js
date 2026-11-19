@@ -8,5 +8,7 @@ export default function formatEmployeeList(employees) {
   if (employees.length === 0) {
     return 'No employees found.';
   }
-  return employees.map((emp, index) => `${index + 1}. ${formatEmployeeInfo(emp)}`).join('\n');
+  return employees
+    .map((emp, index) => `${index + 1}. ${formatEmployeeInfo(emp)}`)
+    .join('\n');
 }
